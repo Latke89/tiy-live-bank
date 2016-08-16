@@ -32,6 +32,8 @@ public class Assignment6Runner {
         Bank myBank = new Bank();
         myBank.setName(commandLineBankName);
 
+//        Comment comment comment!
+
         System.out.println("How many bank accounts do you have?");
         Scanner inputScanner = new Scanner(System.in);
         int numBankAccounts = Integer.valueOf(inputScanner.nextLine());
